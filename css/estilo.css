@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.colores{ 
+    color: #62eb0c;
+}
+
+
+
+.body{
+    background-image:
+    url("../image/fondos/pexels-djordje-petrovic-2102416.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family:'Roboto' ;
+    height: 2500px;
+}
+
+
+.navbar-brand{
+    font-size: 50px;
+}
+.nav-link{
+    font-size: 35px;
+    margin: 15px;
+}
+
+
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(6,1fr);
+    background-color: rgba(0, 0, 0, 0.727);
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    height: 700px;
+}
+.box__main{
+    grid-column: 7/12;
+    grid-row: 3;
+}
+
+
+
+.title__main a{
+    text-decoration:  none;
+    font-size: 95px;
+    color:antiquewhite;
+    animation: fadeOut;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+
+
+#mongol{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(6,1fr);
+    height: 700px;
+    background-color: #62eb0c5c;
+    border: solid 5px #62eb0c;
+    border-radius: 20px;
+}
+
+.box__mongol{
+    grid-column: 4/10;
+    grid-row: 2/5;
+}
+.title__mongol{
+    font-size: 65px;
+    color: black;  
+}
+.text__mongol{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.box__boton{
+    grid-column: 6/8;
+    grid-row: 5;
+}
+
+.boton__mongol{
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color:black;
+    color: antiquewhite;
+    transition: 3s;
+    border: solid 2px antiquewhite;
+}
+.boton__mongol:hover{
+    transform: scale(1.5);
+}
+
+#nosotros{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(7,1fr);
+    height: 1000px;
+    border-radius: 20px;
+    background-color:rgba(0, 0, 0, 0.903);
+    margin-top: 20px;
+}
+
+
+.box__nosotros{
+    grid-column: 4/10;
+    grid-row: 2/4;
+}
+.video__nosotros{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    
+}
+
+.titu__nosotros{
+    grid-column: 4/10;
+    grid-row: 1;
+    margin-top: 55px;
+    text-align: center;
+    color:#62eb0c ;
+}
+.titu__nosotros h2{
+    font-size: 85px;
+}
+.text__nosotros{
+    color: antiquewhite;
+    grid-column: 4/10;
+    grid-row: 6;
+    font-size: 25px;
+    text-align: center;
+}
+
+.boton__nosotros{
+    grid-column: 6/8;
+    grid-row: 7;
+}
+
+/*PORFOLIO*/
+
+.body__porfolio{
+    background-image: url("../image/fondos/pexels-tranmautritam-285814.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "roboto";
+}
+#main__porfolio{
+    background-color: rgba(0, 0, 0, 0.681);
+    border-radius: 20px;
+    height: 1000px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(13,1fr);
+}
+.box__mainpor{
+    grid-column:5/9;
+    grid-row: 2;
+    border-radius: 25px;
+    border-bottom: 3px solid #62eb0c;
+}
+.titu__porfo{
+    color: antiquewhite;
+    font-size: 50px;
+    text-align: center;
+}
+.text__porfo{
+    grid-column: 4/10;
+    grid-row: 3/9;
+}
+.text__porfo p{
+    font-size: 30px;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.box__lio{
+    grid-column: 5/9;
+    grid-row: 11;
+    border-radius: 25px;
+    height: 100%;
+    border-bottom: 3px solid #62eb0c;
+}
+
+.box__lio h3{
+    font-size: 50px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+
+
+#porfolio__trabajo{
+    background-color: rgba(0, 0, 0, 0.727);
+    border-radius: 20px;
+    height: 600px;
+    margin: 20px;
+    border-bottom:solid 2px #62eb0c;
+}
+.porfolio__titiulo{
+    background-color: rgba(0, 0, 0, 0.464);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: antiquewhite;
+    border-radius: 20px;
+    border-bottom:solid 2px #62eb0c;
+
+}
+
+.porfolio__titiulo h2{
+    font-weight: bold;
+    font-size: 55px;
+    font-family: "roboto";
+}
+
+.box__porfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    height: 500px;
+}
+
+.porfolio__trabajo{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.604);
+    border: solid #62eb0c;
+    transition: 4s;
+}
+
+.porfolio__trabajo:hover{
+    transform: scale(0.8);
+
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+}
+/*CONTACTO*/
+
+.body__contacto{
+    font-family: "roboto";
+    background-image: url("../image/fondos/pexels-negative-space-33999.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1400px;
+}
+
+.main__contacto{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    background-color: rgba(0, 0, 0, 0.798);
+    margin: 25px;
+    border-radius: 20px;
+    
+}
+.contenedor__contacto{
+    text-align: center;
+    grid-column: 4/10;
+    grid-row: 2/12;
+    border-radius: 30px;
+}
+.input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #62eb0c;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color:rgba(0, 0, 0, 0.404);
+    color: antiquewhite;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 3s;
+}
+.input:hover{
+    transform: scale(1.2);
+}
+.input:focus{
+    color: #62eb0c;
+}
+.email:invalid{
+    color: crimson;
+}
+.label{
+    font-size: 35px;
+    font-weight: bold;
+    color:antiquewhite ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+legend{
+    font-size: 40px;
+    font-weight: bold;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.botons{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color:rgba(0, 0, 0, 0.248);
+    border: solid 2px #62eb0c;
+    font-size: 25px;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+textarea{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.437);
+    border: solid 2px #62eb0c;
+    color: antiquewhite;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #62eb0c;
+}
+
+.footer{
+    background-color: #62eb0c7a;
+    border-radius: 20px;
+    height: 100px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas:
+    ". . ."
+    "box box redes";
+}
+.box__footer{
+    grid-area: box;
+}
+.text__footer{
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    color: black;
+}
+.redes__footer{
+    grid-area: redes;
+    text-align: center;
+}
+.img__footer{
+    width: 55px;
+    margin-bottom: 5px;
+    
+}
+
+.header__sobremi{
+    height: 450px;
+    width: 100%;
+    background-image: url("../image/gif/OLAS\ DE\ OCEANO.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+
+/*
+@media screen and (min-width: 350px) and (max-width: 540px){
+    .body{
+        height: auto;
+    }
+    #main{
+        background-color: rgba(0, 0, 0, 0.624);
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3,1fr);
+        height: 400px;
+    }
+
+    .box__main{
+        grid-column: 1/4;
+        grid-row: 2;
+    }
+    .title__main a{
+        font-size: 40px;
+    }
+    #mongol{
+        height: 450px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(6,1fr);
+        grid-template-areas:
+        "box box box"
+        "box box box"
+        "box box box"
+        ". . ."
+        ". . ."
+        ". bot .";
+    }
+    .box__mongol{
+        grid-area: box;
+    }
+    .title__mongol{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .text__mongol{
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .box__boton{
+        grid-area: bot;
+    }
+    .boton__mongol:hover{
+        display: none;
+    }
+
+    #nosotros{
+        height: 800px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(10,1fr);
+        grid-template-areas: 
+        ". title ."
+        ". box ."
+        ". box ."
+        ". . ."
+        "text text text"
+        "text text text"
+        "text text text"
+        "text text text"
+        ". bot .";
+    }
+
+    .box__nosotros{
+        grid-area: box;
+    }
+
+    .titu__nosotros{
+        grid-area: title;
+    }
+    .titu__nosotros h2{
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+    
+    .text__nosotros{
+        grid-area: text;
+    }
+    .text__nosotros p{
+        font-size: 18px;
+    }
+
+    .boton__nosotros{
+        grid-area: bot;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas: "box box redes";
+    }
+    .box__footer{
+        grid-area: box;
+    }
+    .text__footer{
+        font-size: 15px;
+    }
+    .redes__footer{
+        grid-area: redes;
+    }
+    .img__footer{
+        width: 25px;
+        margin-top: 40%;
+    }
+}
+    */
